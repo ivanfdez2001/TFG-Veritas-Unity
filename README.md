@@ -7,8 +7,11 @@ En Veritas, los jugadores asumen el papel de un héroe que lucha contra la desin
 
 # Características
 · Multiplataforma: Diseñado para dispositivos Android, pero adaptable a otras plataformas.
+
 · Educación sobre desinformación: Enseña a los jugadores a identificar noticias falsas, manipulaciones de datos y otras tácticas de desinformación.
+
 · Interactividad: Uso de diálogos interactivos y niveles desafiantes para fomentar el pensamiento crítico.
+
 · Basado en Unity: Desarrollado con el motor Unity para una amplia accesibilidad y rendimiento.
 # Requisitos del Sistema
 · Sistema Operativo: Android 5.0 o superior
