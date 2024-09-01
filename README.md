@@ -34,7 +34,9 @@ git clone https://github.com/ivanfdez2001/TFG-Veritas-Unity.git
 El repositorio incluye documentación detallada para ayudarte a comenzar, incluyendo:
 
 · Guía de instalación: Cómo instalar y ejecutar el juego en dispositivos Android.
+
 · Manual de usuario: Información sobre cómo jugar y entender las mecánicas del juego.
+
 · Contribución: Cómo contribuir al proyecto y mejorar el código.
 # Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto o agregar nuevas funcionalidades, por favor sigue estos pasos:
