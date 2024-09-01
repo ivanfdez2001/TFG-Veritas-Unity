@@ -15,19 +15,21 @@ En Veritas, los jugadores asumen el papel de un héroe que lucha contra la desin
 · Basado en Unity: Desarrollado con el motor Unity para una amplia accesibilidad y rendimiento.
 # Requisitos del Sistema
 · Sistema Operativo: Android 5.0 o superior
+
 · Motor de Desarrollo: Unity 2022.3.18f1
+
 · Lenguaje de Programación: C#
+
 · Dependencias: Lista de dependencias necesarias para ejecutar el juego
+
 # Instalación
 Para instalar y ejecutar el juego en un dispositivo Android:
 
-Clona el repositorio en tu máquina local:
-bash
-Copiar código
+ 1. Clona el repositorio en tu máquina local:
 git clone https://github.com/ivanfdez2001/TFG-Veritas-Unity.git
-Abre el proyecto en Unity Hub.
-Sigue las instrucciones proporcionadas en el repositorio para compilar el proyecto.
-Instala el archivo APK generado en tu dispositivo Android.
+ 2. Abre el proyecto en Unity Hub.
+ 3. Sigue las instrucciones proporcionadas en el repositorio para compilar el proyecto.
+ 4. Instala el archivo APK generado en tu dispositivo Android.
 # Documentación
 El repositorio incluye documentación detallada para ayudarte a comenzar, incluyendo:
 
