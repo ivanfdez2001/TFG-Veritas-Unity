@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-695136034934151950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 602
+    y: 212
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "\xA1ADELANTE, JUGADOR! CON CADA NIVEL QUE SUPERAS, TE CONVIERTES EN UN
+      DEFENSOR M\xC1S FUERTE DE LA VERDAD. NOS VEMOS EN EL NIVEL 6."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: 304635838777789911}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel5_Escena6
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 304635838777789911}
+  - {fileID: -695136034934151950}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &304635838777789911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 298
+    y: 219
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "HAS SUPERADO OTRO DESAF\xCDO, PERO NUESTRA LUCHA CONTRA LA DESINFORMACI\xD3N
+      CONTIN\xDAA. PREP\xC1RATE PARA EL PR\xD3XIMO NIVEL. LAS SOMBRAS SEGUIR\xC1N
+      INTENTANDO CONFUNDIRNOS, PERO CON TU AYUDA, LA VERDAD PREVALECER\xC1."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -695136034934151950}
+  isExternalFunc: 0
+  externalFunctionName: 

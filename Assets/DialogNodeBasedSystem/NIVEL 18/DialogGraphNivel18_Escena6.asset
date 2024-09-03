@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8162797423618775099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 582
+    y: 297
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: NOS VEREMOS DE NUEVO, SOMBRAS. PERO POR AHORA, CELEBRAREMOS LA VICTORIA
+      DE LA VERDAD.
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 3025593956488565079}
+  childNode: {fileID: -2762654370451026652}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5573573614489907353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 42
+    y: 296
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "RECUERDA, LA VERDAD SIEMPRE NECESITA DEFENSORES. GRACIAS A TI, EL MUNDO
+      ES UN LUGAR M\xC1S SEGURO E INFORMADO. \xA1FELICIDADES, H\xC9ROE DE LA VERDAD!"
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: -2762654370451026652}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2762654370451026652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 314
+    y: 298
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "JUGADOR, HAS GANADO LA INSIGNIA FINAL Y CON ELLA, LA MISI\xD3N DE PROTEGER
+      A OTROS DE LA DESINFORMACI\xD3N. TU VIAJE NO TERMINA AQU\xCD; DE HECHO, ACABA
+      DE COMENZAR. LLEVA LO QUE HAS APRENDIDO AL MUNDO REAL Y SIGUE LUCHANDO CONTRA
+      LAS MENTIRAS Y LAS FALSEDADES."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: -8162797423618775099}
+  childNode: {fileID: -5573573614489907353}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-695136034934151950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 309
+    y: 128
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "TU DEDICACI\xD3N Y HABILIDAD PARA DISCERNIR LA VERDAD HAN SIDO EXTRAORDINARIAS.
+      HAS DEMOSTRADO SER UN VERDADERO DEFENSOR DE LA VERDAD Y UN LUCHADOR INCANSABLE
+      CONTRA LA DESINFORMACI\xD3N."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: 304635838777789911}
+  childNode: {fileID: 5816197043928027538}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel18_Escena6
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 304635838777789911}
+  - {fileID: -695136034934151950}
+  - {fileID: 5816197043928027538}
+  - {fileID: 5720304846168528179}
+  - {fileID: 3025593956488565079}
+  - {fileID: -8162797423618775099}
+  - {fileID: -2762654370451026652}
+  - {fileID: -5573573614489907353}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &304635838777789911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 39
+    y: 129
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "\xA1FELICIDADES, JUGADOR! HAS COMPLETADO CON \xC9XITO TODOS LOS NIVELES
+      Y DESENMASCARADO CADA ESTRATEGIA DE DESINFORMACI\xD3N QUE LAS SOMBRAS INTENTARON
+      USAR CONTRA TI."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -695136034934151950}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3025593956488565079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 855
+    y: 295
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: SECUAZ 2
+    text: "\xA1PERO REGRESAREMOS! Y CUANDO LO HAGAMOS, SEREMOS M\xC1S FUERTES."
+    characterSprite: {fileID: 21300000, guid: c56fe9fdfa7199e449ada1adb22a42e0, type: 3}
+  parentNode: {fileID: 5720304846168528179}
+  childNode: {fileID: -8162797423618775099}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5720304846168528179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 852
+    y: 129
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: SECUAZ 1
+    text: "ADMITE QUE LO HICIERON BIEN. DETECTARON TODAS NUESTRAS MENTIRAS Y TRUCOS.
+      AHORA SABEN C\xD3MO COMBATIRNOS."
+    characterSprite: {fileID: 21300000, guid: c56fe9fdfa7199e449ada1adb22a42e0, type: 3}
+  parentNode: {fileID: 5816197043928027538}
+  childNode: {fileID: 3025593956488565079}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5816197043928027538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 571
+    y: 129
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: LAS SOMBRAS
+    text: AUNQUE HEMOS PERDIDO ESTA VEZ, NOS HAS DEMOSTRADO QUE LA VERDAD PUEDE PREVALECER.
+      ESTE NO ES EL FINAL... PERO HAS GANADO ESTA BATALLA.
+    characterSprite: {fileID: 21300000, guid: 063a3a9fd09e1b44097faf067fb39711, type: 3}
+  parentNode: {fileID: -695136034934151950}
+  childNode: {fileID: 5720304846168528179}
+  isExternalFunc: 0
+  externalFunctionName: 

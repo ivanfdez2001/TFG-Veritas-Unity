@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7571780781521987219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 595
+    y: 151
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: SECUAZ 2
+    text: VAMOS A VER SI SUS JUGADORES PUEDEN DISTINGUIR LA VERDAD DE NUESTRAS FABRICACIONES.
+    characterSprite: {fileID: 21300000, guid: c56fe9fdfa7199e449ada1adb22a42e0, type: 3}
+  parentNode: {fileID: 7675603000427298233}
+  childNode: {fileID: 313914444169559819}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3835364403791826281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 26
+    y: 145
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: LAS SOMBRAS
+    text: "\xA1JA! \xA1VERITAS Y VERI! NUNCA PODR\xC1N DETENER NUESTRA OLA DE DESINFORMACI\xD3N.
+      ESTAS NOTICIAS FALSAS SEMBRAR\xC1N EL MIEDO Y LA DESCONFIANZA HACIA LOS INMIGRANTES."
+    characterSprite: {fileID: 21300000, guid: 063a3a9fd09e1b44097faf067fb39711, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7675603000427298233}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel1_Escena2
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -3835364403791826281}
+  - {fileID: 7675603000427298233}
+  - {fileID: -7571780781521987219}
+  - {fileID: 313914444169559819}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &313914444169559819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 866
+    y: 150
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: NO SUBESTIMEN EL PODER DE LA VERDAD. CON LA AYUDA DE NUESTROS JUGADORES,
+      DESMANTELAREMOS SUS MENTIRAS Y RESTAURAREMOS LA CONFIANZA.
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: -7571780781521987219}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7675603000427298233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 308
+    y: 149
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: SECUAZ 1
+    text: "LA GENTE YA NO SABE EN QU\xC9 CREER. NOSOTROS CONTROLAMOS LA NARRATIVA."
+    characterSprite: {fileID: 21300000, guid: c56fe9fdfa7199e449ada1adb22a42e0, type: 3}
+  parentNode: {fileID: -3835364403791826281}
+  childNode: {fileID: -7571780781521987219}
+  isExternalFunc: 0
+  externalFunctionName: 

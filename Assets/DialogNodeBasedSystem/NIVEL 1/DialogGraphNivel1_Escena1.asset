@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7513410584951536247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 274
+    y: 228
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "VERI, HEMOS DETECTADO UN AUMENTO EN LA FABRICACI\xD3N DE NOTICIAS FALSAS
+      SOBRE LA INMIGRACI\xD3N. LAS SOMBRAS Y SUS SECUACES EST\xC1N TRABAJANDO ARDUAMENTE
+      PARA SEMBRAR EL CAOS Y LA CONFUSI\xD3N."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 262431591881449879}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel1_Escena1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -7513410584951536247}
+  - {fileID: 262431591881449879}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &262431591881449879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 550
+    y: 226
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "TIENES RAZ\xD3N, VERITAS. DEBEMOS ACTUAR R\xC1PIDAMENTE. HE PREPARADO
+      DOS IM\xC1GENES REPRESENTATIVAS DE NOTICIAS SOBRE INMIGRACI\xD3N. UNA DE ELLAS
+      ES REAL, Y LA OTRA HA SIDO FABRICADA POR LAS SOMBRAS. NECESITAMOS QUE EL JUGADOR
+      NOS AYUDE A IDENTIFICAR CU\xC1L ES LA VERDADERA."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: -7513410584951536247}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 

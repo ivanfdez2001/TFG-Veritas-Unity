@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8673468698942292192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 21
+    y: 402
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: NARRADOR
+    text: "LA BATALLA POR LA VERDAD COMIENZA AHORA. AD\xC9NTRATE EN EL MUNDO DE LOS
+      GUARDIANES DE LA VERDAD Y DEMUESTRA QUE LA DESINFORMACI\xD3N NO TIENE LUGAR
+      EN NUESTRA SOCIEDAD."
+    characterSprite: {fileID: 21300000, guid: 40dac7d6b356bb94bb072a6a79ebaf4c, type: 3}
+  parentNode: {fileID: -5149038556984798063}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8226183662832970433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 552
+    y: 219
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: NARRADOR
+    text: "T\xDA, JUGADOR, EST\xC1S LLAMADO A UNIRTE A LOS GUARDIANES DE LA VERDAD.
+      A TRAV\xC9S DE TU AGUDEZA Y CAPACIDAD CR\xCDTICA, DEBER\xC1S ENFRENTAR Y DESMANTELAR
+      DIVERSAS ESTRATEGIAS DE DESINFORMACI\xD3N. CADA NIVEL SER\xC1 UN DESAF\xCDO,
+      PERO CON CADA VICTORIA, TE ACERCAR\xC1S M\xC1S A UN MUNDO INFORMADO Y JUSTO."
+    characterSprite: {fileID: 21300000, guid: 40dac7d6b356bb94bb072a6a79ebaf4c, type: 3}
+  parentNode: {fileID: 4298737924369304392}
+  childNode: {fileID: 5460720220929270403}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7513410584951536247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 25
+    y: 31
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: NARRADOR
+    text: "EN UN MUNDO DONDE LA INFORMACI\xD3N ES PODER, LA VERDAD SE HA CONVERTIDO
+      EN EL BIEN M\xC1S PRECIADO. SIN EMBARGO, FUERZAS OSCURAS INTENTAN MANIPULAR
+      Y DISTORSIONAR LA REALIDAD, SEMBRANDO DESINFORMACI\xD3N Y CAOS."
+    characterSprite: {fileID: 21300000, guid: 40dac7d6b356bb94bb072a6a79ebaf4c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 262431591881449879}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5149038556984798063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 23
+    y: 212
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "PREP\xC1RATE PARA ENFRENTAR MENTIRAS, MANIPULACI\xD3N Y ENGA\xD1OS. CON
+      TU AYUDA, LA VERDAD PREVALECER\xC1."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: 5460720220929270403}
+  childNode: {fileID: -8673468698942292192}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphIntroduccion
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -7513410584951536247}
+  - {fileID: 262431591881449879}
+  - {fileID: 593758793713403488}
+  - {fileID: 1939010048900693778}
+  - {fileID: 4298737924369304392}
+  - {fileID: -8226183662832970433}
+  - {fileID: 5460720220929270403}
+  - {fileID: -5149038556984798063}
+  - {fileID: -8673468698942292192}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &262431591881449879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 286
+    y: 31
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: NARRADOR
+    text: "PARA PROTEGER LA VERDAD Y GARANTIZAR UNA SOCIEDAD INFORMADA, UN GRUPO
+      DE VALIENTES H\xC9ROES SE ALZA CONTRA LAS SOMBRAS DE LA MENTIRA. ESTOS H\xC9ROES,
+      CONOCIDOS COMO LOS GUARDIANES DE LA VERDAD, HAN JURADO COMBATIR LA DESINFORMACI\xD3N
+      EN TODAS SUS FORMAS."
+    characterSprite: {fileID: 21300000, guid: 40dac7d6b356bb94bb072a6a79ebaf4c, type: 3}
+  parentNode: {fileID: -7513410584951536247}
+  childNode: {fileID: 593758793713403488}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &593758793713403488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 550
+    y: 30
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: NARRADOR
+    text: "EN EL FRENTE DE ESTA BATALLA, TENEMOS A VERITAS, EL SABIO Y JUSTO DEFENSOR
+      DE LA VERDAD, Y VERI, LA BRILLANTE Y ANAL\xCDTICA ESTRATEGA DE LA INFORMACI\xD3N.
+      JUNTOS, LIDERAN LA LUCHA CONTRA LAS SOMBRAS, ENTIDADES QUE PERSONIFICAN LA
+      DESINFORMACI\xD3N, Y SUS SECUACES, QUIENES ESPARCEN MENTIRAS Y CAOS."
+    characterSprite: {fileID: 21300000, guid: 40dac7d6b356bb94bb072a6a79ebaf4c, type: 3}
+  parentNode: {fileID: 262431591881449879}
+  childNode: {fileID: 1939010048900693778}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1939010048900693778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 806
+    y: 31
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "LA VERDAD ES NUESTRA ARMA M\xC1S PODEROSA. PERO PARA PROTEGERLA, NECESITAMOS
+      TU AYUDA."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 593758793713403488}
+  childNode: {fileID: 4298737924369304392}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4298737924369304392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 807
+    y: 218
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "CADA D\xCDA, LA DESINFORMACI\xD3N SE PROPAGA M\xC1S R\xC1PIDO Y DE MANERA
+      M\xC1S SOFISTICADA. S\xD3LO TRABAJANDO JUNTOS PODEMOS DESENMASCARAR LAS MENTIRAS
+      Y REVELAR LA VERDAD."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: 1939010048900693778}
+  childNode: {fileID: -8226183662832970433}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5460720220929270403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 287
+    y: 217
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "ERES NUESTRA \xDALTIMA ESPERANZA. \xBFACEPTAS EL DESAF\xCDO DE DEFENDER
+      LA VERDAD?"
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: -8226183662832970433}
+  childNode: {fileID: -5149038556984798063}
+  isExternalFunc: 0
+  externalFunctionName: 

@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7571780781521987219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 599
+    y: 163
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: SECUAZ 2
+    text: "VAMOS A VER SI TUS JUGADORES PUEDEN DESENTRA\xD1AR NUESTRAS FALSAS CAUSAS
+      Y ENCONTRAR LA VERDAD."
+    characterSprite: {fileID: 21300000, guid: c56fe9fdfa7199e449ada1adb22a42e0, type: 3}
+  parentNode: {fileID: 7675603000427298233}
+  childNode: {fileID: 313914444169559819}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3835364403791826281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 44
+    y: 173
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: LAS SOMBRAS
+    text: "\xA1VERITAS Y VERI! ESTA VEZ, HEMOS HECHO QUE LA GENTE CREA QUE LOS INMIGRANTES
+      SON LA CAUSA DIRECTA DE TODOS SUS PROBLEMAS. ES TAN F\xC1CIL SE\xD1ALAR CON
+      EL DEDO Y EVITAR EL AN\xC1LISIS PROFUNDO."
+    characterSprite: {fileID: 21300000, guid: 063a3a9fd09e1b44097faf067fb39711, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7675603000427298233}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel12_Escena2
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -3835364403791826281}
+  - {fileID: 7675603000427298233}
+  - {fileID: -7571780781521987219}
+  - {fileID: 313914444169559819}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &313914444169559819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 845
+    y: 163
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "NO SUBESTIMEN LA CAPACIDAD DE NUESTROS JUGADORES. LA VERDAD Y EL PENSAMIENTO
+      CR\xCDTICO SIEMPRE PREVALECEN SOBRE LA MANIPULACI\xD3N Y LA FALACIA."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: -7571780781521987219}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7675603000427298233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 323
+    y: 169
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: SECUAZ 1
+    text: "LA CLAVE ES HACER QUE LA GENTE RELACIONE DOS EVENTOS SIN UNA BASE L\xD3GICA.
+      ES UNA T\xC1CTICA EFECTIVA PARA GENERAR ODIO Y MIEDO."
+    characterSprite: {fileID: 21300000, guid: c56fe9fdfa7199e449ada1adb22a42e0, type: 3}
+  parentNode: {fileID: -3835364403791826281}
+  childNode: {fileID: -7571780781521987219}
+  isExternalFunc: 0
+  externalFunctionName: 

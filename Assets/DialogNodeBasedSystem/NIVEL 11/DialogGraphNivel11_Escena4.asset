@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4628130824799369948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 430
+    y: 222
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "BIEN HECHO, JUGADOR. HAS DEMOSTRADO UNA GRAN CAPACIDAD CR\xCDTICA. LAS
+      SOMBRAS NO PODR\xC1N CREAR PREJUICIOS TAN F\xC1CILMENTE."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: 9095453040979821438}
+  childNode: {fileID: -507532726682855916}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-507532726682855916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 712
+    y: 219
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: LAS SOMBRAS
+    text: "\xA1IMPOSIBLE! HAN VISTO A TRAV\xC9S DE NUESTRAS GENERALIZACIONES. PERO
+      ESTO NO HA TERMINADO..."
+    characterSprite: {fileID: 21300000, guid: 063a3a9fd09e1b44097faf067fb39711, type: 3}
+  parentNode: {fileID: -4628130824799369948}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel11_Escena4
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 9095453040979821438}
+  - {fileID: -4628130824799369948}
+  - {fileID: -507532726682855916}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &9095453040979821438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 127
+    y: 226
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "\xA1INCRE\xCDBLE TRABAJO! HAS LOGRADO DESENMASCARAR LA T\xC9CNICA DE \"GENERALIZACI\xD3N
+      EXCESIVA\". TU HABILIDAD PARA DETECTAR ESTEREOTIPOS Y AFIRMACIONES INJUSTAS
+      ES IMPRESIONANTE. AQU\xCD TIENES LA INSIGNIA DEL NIVEL 11."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4628130824799369948}
+  isExternalFunc: 0
+  externalFunctionName: 

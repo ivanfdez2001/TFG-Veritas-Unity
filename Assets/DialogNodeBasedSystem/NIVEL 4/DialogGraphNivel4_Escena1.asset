@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7513410584951536247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 266
+    y: 201
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERITAS
+    text: "VERI, NUESTRAS INVESTIGACIONES MUESTRAN QUE LAS SOMBRAS HAN DESPLEGADO
+      UNA LEGI\xD3N DE BOTS Y CUENTAS AUTOMATIZADAS PARA DIFUNDIR DESINFORMACI\xD3N.
+      ESTOS BOTS EST\xC1N INUNDANDO LAS REDES SOCIALES CON NOTICIAS FALSAS."
+    characterSprite: {fileID: 21300000, guid: 9565f72bcb8174a479bb6cade5d89b4f, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 262431591881449879}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogGraphNivel4_Escena1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -7513410584951536247}
+  - {fileID: 262431591881449879}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &262431591881449879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 550
+    y: 226
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: VERI
+    text: "S\xCD, VERITAS. LOS BOTS PUEDEN CREAR UNA ILUSI\xD3N DE CONSENSO Y CREDIBILIDAD
+      AL DIFUNDIR MASIVAMENTE LA DESINFORMACI\xD3N. NECESITAMOS ENTRENAR A NUESTROS
+      JUGADORES PARA QUE PUEDAN IDENTIFICAR ESTAS CUENTAS FALSAS Y VER M\xC1S ALL\xC1
+      DE SU INFLUENCIA."
+    characterSprite: {fileID: 21300000, guid: 8e75149b48867824b86736d7fad9ba08, type: 3}
+  parentNode: {fileID: -7513410584951536247}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
